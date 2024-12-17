@@ -12,7 +12,6 @@ body {
 
 .container{
   overflow: hidden;
-  width: 90%;
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -67,12 +66,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px;
   background-color: #09090B;
   color: #FAFAFA;
   border-radius: 10px;
   width: 100%;
-  max-width: 400px;
   margin: auto;
 }
 

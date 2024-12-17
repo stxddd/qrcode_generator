@@ -20,11 +20,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-
   "eslintConfig": {
     "extends": "react-app"
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
@@ -37,8 +35,7 @@
       "last 1 safari version"
     ]
   },
-
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^6.2.0"
   }
 }

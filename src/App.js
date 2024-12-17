@@ -9,8 +9,8 @@ import './App.css';
 function App() {
     const [qrText, setQrText] = useState('https://github.com/stxddd')
 
-    const [bgColor, setBgColor] = useState("#09090B");
-    const [fgColor, setFgColor] = useState("#FAFAFA");
+    const [bgColor, setBgColor] = useState("#FAFAFA");
+    const [fgColor, setFgColor] = useState("#09090B");
     const [isBgPickerOpen, setIsBgPickerOpen] = useState(false);
     const [isFgPickerOpen, setIsFgPickerOpen] = useState(false);
 

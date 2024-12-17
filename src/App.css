@@ -1,8 +1,6 @@
 @import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-
-
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -13,11 +11,11 @@ body {
 }
 
 .container{
-    overflow: hidden;
-    width: 90%;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+  overflow: hidden;
+  width: 90%;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content {
@@ -96,7 +94,6 @@ body {
   justify-content: center;
   position: relative;
   gap: 20px;
- 
 }
 
 .color-pciker_label {
@@ -210,16 +207,18 @@ body {
 }
 
 .btn:hover {
-  background-color: #FAFAFA;
-  color: #09090B;
+  background-color: #14B79B;
+  color: #0E2323;
   box-shadow: 0 0 10px rgba(250, 250, 250, 0.8);
 }
 
 .btn:active {
   background-color: #E6E6E6;
-  color: #09090B;
+  color: #0E2323;
   box-shadow: 0 0 5px rgba(250, 250, 250, 0.5);
 }
+    /* background-color: #0E2323;
+    color: #14B79B; */
 
 .download-btn {
   margin-bottom: 100px;
@@ -234,7 +233,7 @@ body {
   .color-pciker_items {
       display: flex;
       flex-direction: column;
-    }
+  }
   .result {
     zoom: 70%;
   }
@@ -253,5 +252,5 @@ body {
     margin-top: 40px;
     line-height: 80px;
   }
-
 }
+
